@@ -1,7 +1,7 @@
 //test-structure-tests.spec.ts
 import { test, expect } from "@playwright/test";
 
-test.describe("Pmtool přihlašovací testy", () => {
+test.describe("Pmtool přihlašovací testy @smoke", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("https://tredgate.com/pmtool/");
   });
